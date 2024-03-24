@@ -1,9 +1,12 @@
-function bikeRepair() {
+function bikeRepair(parameter1, parameter2) {
   console.log("Servicing your bike... .. .. ");
   console.log("Checking accelerator......, fixing it.... fixed ! ");
   console.log("checking brakes..........., new installation done.");
   console.log("Checking Gear box......  Fixed! ");
   console.log("Washing bike now ! :) ");
+
+  parameter1("Mr. Happy");
+  parameter2(5000, 1245);
 }
 
 function callOwner(name) {
