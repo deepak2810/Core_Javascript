@@ -3,8 +3,8 @@
 const test_arr = ["Jan", "Feb", "March", "April", "May", "June"];
 
 function spliceDemo(arr, startindex, deletecount) {
-  arr.splice(startindex, deletecount);
-  return arr;
+  const deleted_elements = arr.splice(startindex, deletecount);
+  return deleted_elements;
 }
 
 console.log(spliceDemo(test_arr, 3, 3));
