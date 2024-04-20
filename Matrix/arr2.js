@@ -10,4 +10,8 @@ function iterateColumn(arr, col) {
   }
 }
 
-console.log(iterateColumn(arr, 1));
+// console.log(iterateColumn(arr, 1));
+
+// arr[0][0];
+// arr[1][1];
+// arr[2][2]
