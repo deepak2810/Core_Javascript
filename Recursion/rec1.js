@@ -1,10 +1,12 @@
 function recursion(N) {
+  let sum = 0;
+
   if (N < 1) {
     return;
   }
-
-  console.log(N);
   recursion(N - 1);
+  console.log(N);
+  //   sum += N;
 }
 
 recursion(10);
