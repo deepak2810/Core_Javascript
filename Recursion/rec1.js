@@ -5,6 +5,7 @@ function recursion(N) {
     return;
   }
   recursion(N - 1);
+  /// after recursion.
   console.log(N);
   //   sum += N;
 }
